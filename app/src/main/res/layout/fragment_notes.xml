@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingStart="16dp"
+    android:paddingVertical="16dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:accessibilityLiveRegion="polite"
+            android:contentDescription="Text input field"
+            android:gravity="top"
+            android:hint="Enter your text"
+            android:imeOptions="actionDone"
+            android:importantForAccessibility="yes"
+            android:textColor="@color/black"
+            android:inputType="textMultiLine"
+            android:textSize="20sp"
+            android:minLines="2"
+            android:overScrollMode="always"
+            android:scrollbars="none"
+            android:background="@null"
+            android:scrollHorizontally="false"
+            android:layout_marginBottom="10dp" />
+
+    </ScrollView>
+
+</RelativeLayout>
+
+
+
+
+
+
+

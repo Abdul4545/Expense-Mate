@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CA4 Project</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="purpose">Purpose</string>
+    <string name="purpose_text">Purpose of this application is to combines a calculator, tip calculator, and note keeper/expense tracker in one convenient application and you do not need to open three different applications for different tasks, you can write your expenses in this application only after calculating them</string>
+    <string name="feature">Features</string>
+    <string name="calculator">Calculator</string>
+    <string name="calculatorExplanation">It has functionality of a basic calculator, which you can use for daily routine calculations.</string>
+    <string name="tip">Tip Calculator</string>
+    <string name="tipExplanation">It has functionality of a basic Tip calculator, the tip value ranges from 0 to 40% of the base bill amount and based on the tip percent it shows about the quality of the food and service. It shows you the tip amount and total amount including bill.</string>
+    <string name="note">Notes</string>
+    <string name="noteExplanation">It allows you to make notes of essential things like you can write about any upcoming even, task, or write related to your expenses how much you have spend at what place on which date and many more things you can save in it. It will be not deleted until you delete that by yourself or uninstall the app.</string>
+    <string name="efficiencyText">The application enhances efficiency by integrating a calculator, tip calculator, and note keeper into one platform, eliminating the need to switch between different apps.</string>
+    <string name="convenienceText">The application offers convenience by providing easy-to-use tools for everyday tasks such as calculations, tip computations for restaurant bills, and note-taking.</string>
+    <string name="zero">0</string>
+
+
+
+</resources>
