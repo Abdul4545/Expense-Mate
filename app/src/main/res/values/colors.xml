@@ -5,4 +5,6 @@
     <color name="green">#0C6510</color>
     <color name="silver">#C0C0C0</color>
     <color name="tipCalculator">#E6E6FA</color>
+    <color name="colorPrimary">#6200EE</color>
+
 </resources>

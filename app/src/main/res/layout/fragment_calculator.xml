@@ -30,7 +30,7 @@
             android:cursorVisible="false"
             android:focusable="false"
             android:gravity="right"
-            android:paddingRight="15dp"
+            android:paddingEnd="15dp"
             android:scrollHorizontally="true"
             android:paddingTop="20dp"
             android:singleLine="true"
@@ -38,7 +38,8 @@
             android:textColor="@color/black"
             android:textSize="40sp"
             android:textStyle="bold"
-            android:importantForAutofill="no" />
+            android:importantForAutofill="no"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
 
         <EditText
             android:id="@+id/result"
@@ -140,17 +141,6 @@
             android:layout_gravity="center_horizontal"
             android:orientation="vertical">
 
-<!--            <androidx.appcompat.widget.AppCompatButton-->
-<!--                android:id="@+id/backSpace"-->
-<!--                android:layout_width="70dp"-->
-<!--                android:layout_height="70dp"-->
-<!--                android:background="@drawable/rounded_button"-->
-<!--                android:layout_gravity="center_horizontal"-->
-<!--                android:textSize="40sp"-->
-<!--                android:layout_marginBottom="8dp"-->
-<!--                android:backgroundTint="@color/white"-->
-<!--                android:text="<"-->
-<!--                />-->
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/backSpace"
@@ -158,10 +148,14 @@
                 android:layout_height="70dp"
                 android:background="@drawable/rounded_button"
                 android:layout_gravity="center_horizontal"
-                android:textSize="40sp"
                 android:layout_marginBottom="8dp"
                 android:backgroundTint="@color/white"
-                android:text=">" />
+                android:drawableStart="@drawable/ic_backspace"
+                android:drawablePadding="8dp"
+                android:paddingStart="20sp"
+                android:gravity="center"
+                tools:ignore="RtlSymmetry" />
+
 
 
 
